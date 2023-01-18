@@ -1,8 +1,8 @@
 body {
     font-family: 'Happy Monkey', cursive;
     text-align: center; 
-    background-color: #a2d2ff;
     color: #ffffff;
+    background: linear-gradient(#a2d2ff, #EFB0c9);
 }
 
 #main-avatar {
