@@ -64,3 +64,15 @@ h1, h2, h3, h4, p {
 #gift-img-hot:hover {
     background-image: url("images/hot.webp");
 }
+
+#gift-img-genius:hover {
+    background-image: url("images/genius.webp");
+}
+
+#gift-img-cheers {
+    height: 200px
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.webp");
+}
