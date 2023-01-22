@@ -1,0 +1,65 @@
+body {
+    background-color: lightgray;
+    height: 100vh;
+    font-family: Arial;
+}
+
+.card {
+    background-color: white;
+    margin: 5%;
+    padding: 5px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), -2px -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.stat-item p {
+    font-weight: bold;
+}
+
+.stat-item i {
+    color: red;
+    padding: 10px;
+    background-color: #ff000020;
+    border-radius: 5px;
+}
+
+.stats-container {
+    display: flex;
+    gap: 1em;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.grey-container {
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.button {
+    background-color: navy;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 0 1em 0 1em;
+}
+
+.button:hover {
+    background-color: blue;
+}
