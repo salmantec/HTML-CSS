@@ -1,1 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400;800&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #007AF3;
+}
+
+
+body {
+    font-family: 'poppins';
+    background-color: #F2F2F2;
+    margin: 0;
+}
+
+.navbar {
+    background-color: white;
+    padding: 1em;
+
+    .logo {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 1.2em;
+
+        span {
+            color: var(--primary-color);
+        }
+    }
+
+    nav {
+        display: none;
+    }
     
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-menu:hover {
+        cursor: pointer;
+    }
+}
