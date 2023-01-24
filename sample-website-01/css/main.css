@@ -81,4 +81,32 @@ section {
 .hero .hero-img {
   width: 70%;
   margin-top: 3em;
+}
+
+section.features-section {
+  background-color: #20272E;
+  color: white;
+}
+section.features-section ul.features-list {
+  margin: 0;
+  padding-left: 0.1em;
+}
+section.features-section ul.features-list li {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  position: relative;
+}
+section.features-section ul.features-list li:before {
+  content: "";
+  left: -2em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/bullet.svg");
+  background-size: contain;
+  margin-right: 0.5em;
+}
+section.features-section img {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
